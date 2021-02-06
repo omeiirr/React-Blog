@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 
 const Home = () => {
   const { data: blogs, isPending, error } = useFetch(
-    "http://localhost:8000/blogs"
+    "https://github.com/omeiirr/React-Blog/blob/master/data/db.json"
   );
   // delete function defined in Home.js instead of BlogList.js
   // so that we can interact with data directly.
